@@ -22,4 +22,4 @@ jobs:
     - name: Run ML Pipeline
       run: |
         source venv/bin/activate
-        python ml_pipeline.py4.
+        python ml_pipeline.py
