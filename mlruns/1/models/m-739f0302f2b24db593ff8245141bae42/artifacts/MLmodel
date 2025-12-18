@@ -1,0 +1,22 @@
+artifact_path: /Users/zahra.mohammadi/Documents/mlops_labs/mlruns/1/models/m-739f0302f2b24db593ff8245141bae42/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-739f0302f2b24db593ff8245141bae42
+model_size_bytes: 760
+model_uuid: m-739f0302f2b24db593ff8245141bae42
+prompts: null
+run_id: 33f0e5ff2a0b4ccaabcd327e9e0d1ebb
+utc_time_created: '2025-12-18 07:56:38.496674'
